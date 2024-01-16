@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina de viajes</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <img class="menu" src="img/menu.svg" alt="">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#promociones">Promociones Bancarias</a>
+            <a href="#experiencias">Experiencias</a>
+            <a href="#cliente">Quiero que me contacten</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+            <p class="presentacion">Llevamos más de 30 años en el mercado acercándote a tu destino soñado</p>
+        </div>
+    </header>
+    <main>
+        <section class="productos-cont" id="productos">
+            <h2 class="subtitulo">Nuestros productos</h2>
+            <div class="contenedor-productos">
+                <img src="img/mapa.svg" alt="mapa del mundo">
+                <div class="valija-productos">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number ">1</span>Paquetes a Punta Cana</h3>
+                        <p>¡Descubre la belleza paradisíaca de las playas de Punta Cana, donde arenas blancas y aguas
+                            cristalinas crean un paraíso inolvidable!</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Paquetes a París</h3>
+                        <p>Explora la elegancia eterna de París, donde la arquitectura icónica y la cultura cautivadora
+                            convergen en una experiencia inolvidable. </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Escapadas a New York</h3>
+                        <p>
+                            Vive la energía inigualable de Nueva York, la ciudad que nunca duerme. Rascacielos
+                            imponentes, luces deslumbrantes y una diversidad cultural vibrante te esperan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="promos" id="promociones">
+            <h2 class="subtitulo">Promociones Bancarias</h2>
+            <section class="contenedor-promos">
+                <img src="img/tarjeta.svg" alt="tarjetas de credito">
+                <div class="promos-tarje">
+                    <div class="contenedor-tarjetas">
+                        <h3 class="n-tarj">BANCO SANTA CRUZ</h3>
+                        <p> 6 cuotas sin interés los días miercóles y viernes pagando con tu tarjeta de crédito de BSC
+                        </p>
+                    </div>
+                    <div class="contenedor-tarjetas">
+                        <h3 class="n-tarj">CRIPTOMONEDAS</h3>
+                        <p> Todos los días 10% de descuento pagando con crypto de cualquier billetera virtual
+                        </p>
+                    </div>
+                    <div class="contenedor-tarjetas">
+                        <h3 class="n-tarj">TARJETA NARANJA X</h3>
+                        <p> Reintegro del 20% los días sábados pagando con tarjeta prepaga de Naranja X
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/pc1.jpg" alt="Punta Cana 1" class="img-galeria">
+                    <img src="img/pc2.jpg" alt="Punta Cana 2" class="img-galeria">
+                    <img src="img/p1.jpg" alt="París 1" class="img-galeria">
+                    <img src="img/p2.jpg" alt="París 2" class="img-galeria">
+                    <img src="img/ny1.jpg" alt="New York 1" class="img-galeria">
+                    <img src="img/ny2.jpg" alt="New York 2" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="img/left.svg" alt="" class="left">
+            <img src="img/right.svg" alt="" class="right">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="experiencias">
+            <h2 class="subtitulo">Experiencias</h2>
+            <section class="experiencias">
+                <div class="cont-exp">
+                    <img src="img/exp1.svg">
+                    <h1 class="n-exp">Excursiones </h1>
+                </div>
+                <div class="cont-exp">
+                    <img src="img/restaurant.svg">
+                    <h1 class="n-exp">Restaurantes</h1>
+                </div>
+            </section>
+
+        </section>
+        <section class="datos-cliente" id="cliente">
+            <h2 class="subtitulo">¿Queres que te contactemos?</h2>
+            <div class="formulario-cliente">
+                <h4 class="sub-subtitulo">Formulario de Contacto</h4>
+                <input class="datos" type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+                <input class="datos" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+                <input class="datos" type="text" name="mail" id="mail" placeholder="E-mail">
+                <input class="btn-guardado" type="submit" value="Guardar datos">
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Colorada Viajes</h2>
+            </div>
+            <div class="social-media">
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=iOiEp9-tTJV5dLFc" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=iOiEp9-tTJV5dLFc" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=iOiEp9-tTJV5dLFc" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
